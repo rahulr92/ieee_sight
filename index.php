@@ -249,6 +249,7 @@ $app_name = idx($app_info, 'name', '');
     <section id="get-started">
       <p>Click, comment and share. An initiative by <span>IEEE SIGHT</span></p>
       <a href="#" target="_top" class="button">Latest concerns</a>
+	  <a href="add_concern/form.php?name=<?php echo he(idx($basic, 'name')); ?>&fb_id=<?php echo he($user_id); ?>" target="_top" class="button">Create a concern</a>
     </section>
 
     <?php
