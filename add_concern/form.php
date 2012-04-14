@@ -46,7 +46,7 @@
 					<li id="li_1" >
 						<label class="description" for="element_1">Concern Desctiption: </label>
 						<div>
-							<textarea id="element_1" name="concern_desc" class="element text medium" value="" rows="4" cols="20"> 
+							<textarea id="element_1" name="concern_desc" class="element text small" value="" rows="4" cols="35"> 
 							</textarea>
 						</div> 
 					</li>	
@@ -55,7 +55,7 @@
 					<li id="li_1" >
 						<label class="description" for="element_1">Suggestions for solution: </label>
 						<div>
-							<textarea id="element_1" name="concern_soln" class="element text medium"  value="" rows="4" cols="20"> 
+							<textarea id="element_1" name="concern_soln" class="element text small"  value="" rows="4" cols="35"> 
 							</textarea>
 						</div> 
 					</li>
