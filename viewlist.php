@@ -13,16 +13,16 @@
 <?php
 
   // set up for using DB - production
-#  $user = 'app3966440';
-#  $pass = 'admin';
-#  $host = 'instance11231.db.xeround.com:7638';
-#  $db_name = 'ieee_click';
+  $user = 'app3966440';
+  $pass = 'admin';
+  $host = 'instance11231.db.xeround.com:7638';
+  $db_name = 'ieee_click';
 
   // set up for using DB - localhost
-  $user = 'root';
-  $pass = '';
-  $host = 'localhost';
-  $db_name = 'ieee_click';
+#  $user = 'root';
+#  $pass = '';
+#  $host = 'localhost';
+#  $db_name = 'ieee_click';
   
   if(isset($_GET['num']))
 	$num = 	$_GET['num'];
