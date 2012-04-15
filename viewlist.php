@@ -15,7 +15,7 @@
   // set up for using DB - production
   $user = 'app3966440';
   $pass = 'admin';
-  $host = 'instance11231.db.xeround.com:7638';
+  $host = 'int.instance11231.db.xeround.com:7638';
   $db_name = 'ieee_click';
 
   // set up for using DB - localhost
