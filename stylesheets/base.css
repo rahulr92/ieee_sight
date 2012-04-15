@@ -357,3 +357,21 @@ header .tagline {
 .clearfix {
   zoom: 1;
 }
+
+
+/*--------------------------------------------*/
+
+/*=Additional
+-----------------------------------------------*/
+.heading {
+font-size:30px;
+color: #3B5998;
+font-weight: bold;
+}
+
+.subheading {
+font-size:14px;
+color: #3B5998;
+font-weight: bold;
+}
+
