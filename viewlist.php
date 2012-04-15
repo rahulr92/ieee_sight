@@ -18,12 +18,6 @@
   $host = 'instance11231.db.xeround.com';
   $db_name = 'app3966440';
   $port = 7638;
-
-  // set up for using DB - localhost
-#  $user = 'root';
-#  $pass = '';
-#  $host = 'localhost';
-#  $db_name = 'ieee_click';
   
   if(isset($_GET['num']))
 	$num = 	$_GET['num'];
