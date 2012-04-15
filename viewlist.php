@@ -15,8 +15,9 @@
   // set up for using DB - production
   $user = 'app3966440';
   $pass = 'admin';
-  $host = 'int.instance11231.db.xeround.com:7638';
+  $host = 'instance11231.db.xeround.com';
   $db_name = 'ieee_click';
+  $port = '7638';
 
   // set up for using DB - localhost
 #  $user = 'root';
@@ -31,7 +32,7 @@
 
 	
   // set up universal connection string or DSN
-  $con = new mysqli($host,$user,$pass,$db_name);
+  $con = new mysqli($host,$user,$pass,$db_name,$port);
   if(isset($_GET['id']))
 	{
 		$id = $_GET['id'];
