@@ -16,8 +16,8 @@
   $user = 'app3966440';
   $pass = 'admin';
   $host = 'instance11231.db.xeround.com';
-  $db_name = 'ieee_click';
-  $port = '7638';
+  $db_name = 'app3966440';
+  $port = 7638;
 
   // set up for using DB - localhost
 #  $user = 'root';
