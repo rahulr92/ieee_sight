@@ -45,7 +45,7 @@ else
 	echo "<h2 class='heading'>".$row['concern_title']."</h2><br />";
 	if($row['image_name'] != "")
 	{
-		echo "<img src='uploads/".$row['image_name']."></img>";
+		echo "<img src='uploads/".$row['image_name']."'></img>";
 	}
 
 	echo "<br /><h3 class='subheading'>Description</h3><p>".$row['concern_desc']."</p>";
