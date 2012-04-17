@@ -11,21 +11,21 @@
 
 		// constructor
 		function dbConnect() {				
+#			$this->host 								= 	getenv('XEROUND_DATABASE_HOST').':'.getenv('XEROUND_DATABASE_PORT');
+#			$this->db 									= 	getenv('XEROUND_DATABASE_NAME');
+#			$this->user 								= 	getenv('XEROUND_DATABASE_USERNAME');
+#			$this->pass 								= 	getenv('XEROUND_DATABASE_PASSWORD');
 			$this->host 								= 	'instance11231.db.xeround.com:7638';
-			$this->db 									= 	getenv('XEROUND_DATABASE_NAME');
-			$this->user 								= 	getenv('XEROUND_DATABASE_USERNAME');
-			$this->pass 								= 	getenv('XEROUND_DATABASE_PASSWORD');
-#			$this->host 								= 	'instance11231.db.xeround.com:7638';
-#			$this->db 									= 	'app3966440';
-#			$this->user 								= 	'app3966440';
-#			$this->pass 								= 	'admin';
+			$this->db 									= 	'app3966440';
+			$this->user 								= 	'app3966440';
+			$this->pass 								= 	'admin';
 
 			$this->connId 								=	@mysql_pconnect($this->host, $this->user, $this->pass);
 			if (!$this->connId) {			
 				trigger_error("Error connecting to <b>Server</b> $this->host", E_USER_ERROR);
 				die();						
 			}
-			if (!mysql_select_db('ieee_click', $this->connId)) {			
+			if (!mysql_select_db($this->db, $this->connId)) {			
 				trigger_error("Unable to connect to database $this->db", E_USER_ERROR);
 				die();
 			}	
