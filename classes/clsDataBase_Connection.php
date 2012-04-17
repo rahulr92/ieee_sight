@@ -11,7 +11,7 @@
 
 		// constructor
 		function dbConnect() {				
-			$this->host 								= 	getenv('XEROUND_DATABASE_HOST').':'.getenv('XEROUND_DATABASE_PORT');
+			$this->host 								= 	'instance11231.db.xeround.com:7638';
 			$this->db 									= 	getenv('XEROUND_DATABASE_NAME');
 			$this->user 								= 	getenv('XEROUND_DATABASE_USERNAME');
 			$this->pass 								= 	getenv('XEROUND_DATABASE_PASSWORD');
