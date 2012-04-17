@@ -15,7 +15,7 @@ if(is_uploaded_file($_FILES["upload"]["tmp_name"]))
 copy($_FILES["upload"]["tmp_name"],"../uploads/". $_FILES["upload"]["name"]);
 }
 
-$con = new mysqli("instance11231.db.xeround.com:7638","app3966440","admin","ieee_click");
+$con = new mysqli("instance11231.db.xeround.com:7638","app3966440","admin","app3966440");
 $stmt= $con->prepare("insert into concern_table(fb_id,fb_name,section,sb,sight_uname,concern_title,concern_desc,ready_volunteer,solution_idea,estimate_cost,ready_team,image_name) values(?,?,?,?,?,?,?,?,?,?,?,?)");
 
 
